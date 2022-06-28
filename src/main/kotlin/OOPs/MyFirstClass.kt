@@ -1,4 +1,4 @@
-package basics
+package OOPs
 
 class MyFirstClass(var name:String) {
 

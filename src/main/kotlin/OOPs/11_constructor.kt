@@ -2,6 +2,7 @@ package OOPs
 
 //1st way to initialize a constructor
 class Constructor(name:String, age:Int) {
+    //these are the class variables
     var name: String
     var age: Int
     init {

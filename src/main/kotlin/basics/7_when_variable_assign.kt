@@ -2,7 +2,7 @@ package basics
 
 
 fun main(args: Array<String>) {
-    val a = 14
+    val a:Int = 14
     var res:String = ""
 
     when(a) {

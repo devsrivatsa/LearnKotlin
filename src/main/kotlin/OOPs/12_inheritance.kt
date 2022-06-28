@@ -5,12 +5,12 @@ therefore we cannot inherit anything.
 Inorder to inherit, we have to make the class open
 */
 open class Inheritance  {
-    var life = true
+    var life:Boolean = true
 }
 
 class DerivedClass: Inheritance() {
     init {
-        println("is aline ? -- > ${this.life}")
+        println("is alive ? -- > ${this.life}")
     }
 }
 

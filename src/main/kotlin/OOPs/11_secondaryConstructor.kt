@@ -5,7 +5,7 @@ class secondaryConstructor(name:String) {
     var name:String
     init {
         this.name = name;
-        println("This block always executes first")
+        println("This block always executes first, and the name btw is ${this.name}")
     }
     //cannot declare var name or var age inside secondary constructor
     constructor(name: String, age:Int): this(name) {
@@ -17,4 +17,5 @@ class secondaryConstructor(name:String) {
 
 fun main(args: Array<String>) {
     var i = secondaryConstructor("srivatsa", 29)
+    var j = secondaryConstructor("__sri__")
 }

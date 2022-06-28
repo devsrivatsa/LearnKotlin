@@ -42,11 +42,6 @@ fun labeledForLoopsContinue() {
 }
 
 fun main(args: Array<String>) {
-    labeledForLoopsContinue()
-
-
-
-
-
+    forLoopsBreak();
 
 }

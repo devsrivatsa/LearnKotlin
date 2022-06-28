@@ -1,5 +1,6 @@
 package basics
-import basics.MyFirstClass
+
+import OOPs.MyFirstClass
 
 fun main() {
     var obj = MyFirstClass("Ragnar")
